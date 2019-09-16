@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { Container, Col, Row } from "react-bootstrap";
+import React from "react";
+import { Col, Image, Row } from "react-bootstrap";
 import "./DoctorIntro.css";
 import doctorImage from "../images/doctor.png";
 
@@ -11,7 +11,8 @@ class DoctorIntro extends React.Component {
       location,
       reviewCount,
       starsGiven,
-      desc
+      desc,
+      rate
     } = this.props.info;
     let starDoms = [];
     let startIndex = 0;
@@ -27,10 +28,10 @@ class DoctorIntro extends React.Component {
     }
 
     return (
-      <Fragment>
+      <div className="doctor-intro">
         <Row>
           <Col className="image-left">
-            <img src={doctorImage} alt="logo" />
+            <Image src={doctorImage} roundedCircle />
           </Col>
           <Col className="intro-right">
             <h4>{name}</h4>
@@ -41,14 +42,17 @@ class DoctorIntro extends React.Component {
               {starDoms}
               <span className="reviews"> ({reviewCount})</span>
             </div>
+            <div className="rate">
+              R${rate} / 50 Minutes
+            </div>
           </Col>
         </Row>
         <Row>
           <div className="description-bottom">
-            <p>{desc}</p>
+            {desc}
           </div>
         </Row>
-      </Fragment>
+      </div>
     );
   }
 }
