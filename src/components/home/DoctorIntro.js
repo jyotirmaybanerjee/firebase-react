@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import "./DoctorIntro.css";
-import doctorImage from "../images/doctor.png";
+import doctorImage from "../../images/doctor.png";
 
 class DoctorIntro extends React.Component {
   render() {

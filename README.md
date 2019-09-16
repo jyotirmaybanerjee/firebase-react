@@ -1,3 +1,6 @@
+## Followed [this repo](https://github.com/the-road-to-react-with-firebase/react-firebase-authentication) to integrate firebase db and authentication
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
