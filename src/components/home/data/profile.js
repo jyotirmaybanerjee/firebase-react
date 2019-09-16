@@ -8,53 +8,6 @@ export const profile = {
     desc: 'I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.I have been practising for 15 years.'
 };
 
-export const calendar = [
-    {
-        day: '8/19/2019',
-        slot1: 'na',
-        slot2: 'na',
-        slot3: 'na',
-        slot4: 'na',
-        slot5: 'na',
-        slot6: 'na',
-        slot7: 'na',
-        slot8: 'na',
-    },
-    {
-        day: '8/20/2019',
-        slot1: 'na',
-        slot2: 'na',
-        slot3: 'na',
-        slot4: 'na',
-        slot5: 'na',
-        slot6: 'na',
-        slot7: 'na',
-        slot8: 'na',
-    },
-    {
-        day: '8/21/2019',
-        slot1: 'na',
-        slot2: 'na',
-        slot3: 'na',
-        slot4: 'na',
-        slot5: 'na',
-        slot6: 'na',
-        slot7: 'na',
-        slot8: 'na',
-    },
-    {
-        day: '8/21/2019',
-        slot1: 'na',
-        slot2: 'na',
-        slot3: 'na',
-        slot4: 'na',
-        slot5: 'na',
-        slot6: 'na',
-        slot7: 'na',
-        slot8: 'na',
-    },
-];
-
 export const schedules = {
     '8-19-2019': {
         slot1: 1,
@@ -76,7 +29,7 @@ export const schedules = {
         slot7: 1,
         slot8: 1,
     },
-    '8/21/2019': {
+    '8-21-2019': {
         slot1: 1,
         slot2: 1,
         slot3: 1,
@@ -86,7 +39,7 @@ export const schedules = {
         slot7: 1,
         slot8: 1,
     },
-    '8/22/2019': {
+    '8-22-2019': {
         slot1: 1,
         slot2: 0,
         slot3: 1,
@@ -96,7 +49,7 @@ export const schedules = {
         slot7: 0,
         slot8: 0,
     },
-    '8/23/2019': {
+    '8-23-2019': {
         slot1: 0,
         slot2: 1,
         slot3: 0,
@@ -106,7 +59,7 @@ export const schedules = {
         slot7: 1,
         slot8: 0,
     },
-    '8/24/2019': {
+    '8-24-2019': {
         slot1: 'na',
         slot2: 'na',
         slot3: 'na',
@@ -116,7 +69,7 @@ export const schedules = {
         slot7: 'na',
         slot8: 'na',
     },
-    '8/25/2019': {
+    '8-25-2019': {
         slot1: 'na',
         slot2: 'na',
         slot3: 'na',

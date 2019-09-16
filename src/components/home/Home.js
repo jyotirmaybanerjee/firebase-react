@@ -5,7 +5,7 @@ import Appointment from './Appointment';
 import DoctorIntro from './DoctorIntro';
 import { profile, schedules } from './data/profile';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <Container>
@@ -22,4 +22,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;

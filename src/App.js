@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { withFirebase } from '../../firebase';
-
 import Navigation from './components/nav/Navigation';
 import LandingPage from './components/landing/Landing';
 import SignUpPage from './components/auth/SignUp';
@@ -11,17 +9,6 @@ import SignOutPage from './components/auth/Signout';
 import HomePage from './components/home/Home';
 
 import * as ROUTES from './routes';
-
-/*
-
-  var user = firebase.auth().currentUser;
-
-if (user) {
-  // User is signed in.
-} else {
-  // No user is signed in.
-}
-*/
 
 const App = () => (
   <Router>

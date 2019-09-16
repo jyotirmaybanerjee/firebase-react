@@ -11,6 +11,8 @@ class Appointment extends React.Component {
     currentDate2: moment().add(1, 'days').format("MM/DD/YYYY"),
     currentDate3: moment().add(2, 'days').format("MM/DD/YYYY"),
     currentDate4: moment().add(3, 'days').format("MM/DD/YYYY"),
+    isLoading: false,
+    error: null,
   };
 
   renderCalendar = () => {
@@ -115,6 +117,7 @@ class Appointment extends React.Component {
   render() {
     return (
       <div className="appointment">
+        {this.state.isLoading && <span>Loading...</span>}
         <Modal.Dialog>
           <Modal.Header className="calendar-header">
             <div className="title-text">
@@ -131,6 +134,7 @@ class Appointment extends React.Component {
             {this.renderSchedules()}
           </Modal.Body>
         </Modal.Dialog>
+        {this.state.error}
       </div>
     );
   }
